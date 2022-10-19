@@ -53,8 +53,8 @@ public class Blog implements Serializable {
     /**
      * 是否点赞过了
      */
-//    @TableField(exist = false)
-//    private Boolean isLike;
+    @TableField(exist = false)
+    private Boolean isLike;
 
     /**
      * 标题
